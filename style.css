@@ -35,6 +35,10 @@ body{
 i{
     font-size: 29px;
     cursor: pointer;
+    transition: all 0.2s linear;
+}
+i:active{
+    color: grey;
 }
 .input{
     width: 90%;
