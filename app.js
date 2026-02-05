@@ -24,7 +24,7 @@ function createPassword(){
     }
     input1.value = password;
     navigator.clipboard.writeText(input1.value);
-    // alert("Password copied!!!");
+    alert("Password copied!!!");
 
 }
 
