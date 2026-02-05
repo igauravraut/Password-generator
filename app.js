@@ -23,6 +23,9 @@ function createPassword(){
         password += chars.substring(randomNum , randomNum + 1);
     }
     input1.value = password;
+    navigator.clipboard.writeText(input1.value);
+    // alert("Password copied!!!");
+
 }
 
 function copyPassword(){
